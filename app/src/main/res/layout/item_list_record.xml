@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:text="23:53" />
+        tools:text="18:51" />
 
     <TextView
         android:id="@+id/tv_pressure_systolic"
@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toStartOf="@id/tv_pressure_separator"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:text="123" />
+        tools:text="155" />
 
     <TextView
         android:id="@+id/tv_pressure_separator"
@@ -65,7 +65,7 @@
         app:layout_constraintStart_toEndOf="@id/tv_pressure_separator"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:text="123" />
+        tools:text="155" />
 
     <ImageView
         android:id="@+id/iv_heartRate"
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toEndOf="@+id/iv_heartRate"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:text="95" />
+        tools:text="90" />
 
     <View
         android:id="@+id/bottom_divider"

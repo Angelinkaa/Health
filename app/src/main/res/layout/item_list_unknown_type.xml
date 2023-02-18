@@ -46,7 +46,7 @@
                 android:textSize="11sp"
                 app:layout_constraintStart_toEndOf="@+id/iv_unknown_type_sign"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="ГГГГ / ДД / ММ - элемент ID такойто" />
+                tools:text="ГГГГ / ДД / ММ" />
 
             <TextView
                 android:id="@+id/tv_unknown_type_name"
@@ -79,7 +79,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/iv_unknown_type_sign"
                 app:layout_constraintTop_toBottomOf="@+id/tv_unknown_type_name"
-                tools:text="Получен не поддерживаемы данным списком тип элемента" />
+                tools:text="Получен не поддерживаемый данным списком тип элемента" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>

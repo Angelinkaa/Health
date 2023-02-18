@@ -1,7 +1,9 @@
 package ru.angelinamscw.myapp.ui.main
 
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.PopupMenu
 import android.widget.Toast
@@ -9,10 +11,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import ru.angelinamscw.domain.Record
 import ru.angelinamscw.myapp.R
 import ru.angelinamscw.myapp.databinding.MineFragmentBinding
-import ru.angelinamscw.domain.Record
-import ru.angelinamscw.myapp.ui.common.Separator
 import ru.angelinamscw.myapp.ui.common.ILongClicked
 
 class MainFragment : Fragment() {
@@ -40,9 +41,6 @@ class MainFragment : Fragment() {
                         true
                     }
                     pop.show()
-                } else if (itemObject is Separator) {
-                    // реализация метода удаления группы элементов (т.е. за день или в будущем за период)
-                    // необходимо выполнить здесь
                 }
             }
         }

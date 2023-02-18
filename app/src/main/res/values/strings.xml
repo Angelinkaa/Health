@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Healthy</string>
+    <string name="app_name">Healthy Tracker</string>
     <string name="action_settings">Настройки</string>
     <!-- Strings used for fragments for navigation -->
     <string name="main_fragment_label">Состояние здоровья</string>
