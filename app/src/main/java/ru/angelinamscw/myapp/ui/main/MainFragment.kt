@@ -47,7 +47,6 @@ class MainFragment : Fragment() {
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
         _binding = MineFragmentBinding.inflate(inflater, container, false)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
