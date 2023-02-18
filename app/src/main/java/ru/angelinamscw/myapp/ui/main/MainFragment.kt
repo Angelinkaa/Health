@@ -1,5 +1,6 @@
 package ru.angelinamscw.myapp.ui.main
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -49,6 +50,7 @@ class MainFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val mineList = binding.rvMain
@@ -87,7 +89,7 @@ class MainFragment : Fragment() {
                 )
             }
             .setNeutralButton(R.string.btn_cancel_text) { _, _ ->
-                Toast.makeText(requireContext(), "Данные НЕ сохранены", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), "Данные НЕ сохранены", Toast.LENGTH_SHORT).show()
             }
             .setCancelable(false)
             .create()
